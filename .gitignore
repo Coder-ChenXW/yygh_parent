@@ -1,0 +1,5 @@
+# Project exclude paths
+/coder/target/
+/common/service_utils/target/
+/model/target/
+/service/service_hosp/target/
