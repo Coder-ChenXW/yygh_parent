@@ -29,11 +29,11 @@ import java.util.Random;
  * @author atguigu
  * @since 2023-03-02
  */
+@CrossOrigin
 @RestController
 @Api(tags = "医院设置信息")
 @RequestMapping("/admin/hosp/hospitalSet")
 @Slf4j
-@CrossOrigin
 public class HospitalSetController {
 
     @Autowired
@@ -88,25 +88,36 @@ public class HospitalSetController {
     }
 
 
-    @ApiOperation(value = "带查询条件的分页")
-    @GetMapping(value = "/page/{currentNum}/{size}")
-    public R getPageInfo(@ApiParam(name = "pageNum", value = "当前页") @PathVariable Integer pageNum,
-                         @ApiParam(name = "size", value = "每页显示多少条") @PathVariable Integer size,
-                         @RequestBody HospitalSetQueryVo hospitalSetQueryVo) {
+//    @ApiOperation(value = "带查询条件的分页")
+//    @GetMapping(value = "/page/{currentNum}/{size}")
 
-        Page<HospitalSet> page = new Page<>(pageNum, size);
+    @ApiOperation(value = "分页条件医院设置列表")
+    @PostMapping("/page/{page}/{limit}")
+    public R pageQuery(
+            @ApiParam(name = "page", value = "当前页码", required = true)
+            @PathVariable Long page,
+            @ApiParam(name = "limit", value = "每页记录数", required = true)
+            @PathVariable Long limit,
+            @ApiParam(name = "hospitalSetQueryVo", value = "查询对象", required = false)
+            @RequestBody(required = false) HospitalSetQueryVo hospitalSetQueryVo) {
+        Page<HospitalSet> pageParam = new Page<>(page, limit);
         QueryWrapper<HospitalSet> queryWrapper = new QueryWrapper<>();
-        if (!StringUtils.isEmpty(hospitalSetQueryVo.getHosname())) {
-            queryWrapper.like("hosname", hospitalSetQueryVo.getHosname());
+        if (hospitalSetQueryVo == null) {
+            hospitalSetService.page(pageParam, queryWrapper);
+        } else {
+            String hosname = hospitalSetQueryVo.getHosname();
+            String hoscode = hospitalSetQueryVo.getHoscode();
+            if (!StringUtils.isEmpty(hosname)) {
+                queryWrapper.like("hosname", hosname);
+            }
+            if (!StringUtils.isEmpty(hoscode)) {
+                queryWrapper.eq("hoscode", hoscode);
+            }
+            hospitalSetService.page(pageParam, queryWrapper);
         }
-
-        if (!StringUtils.isEmpty(hospitalSetQueryVo.getHoscode())) {
-            queryWrapper.eq("hoscode", hospitalSetQueryVo.getHoscode());
-        }
-
-        hospitalSetService.page(page, queryWrapper);
-
-        return R.ok().data("total", page.getTotal()).data("rows", page.getRecords());
+        List<HospitalSet> records = pageParam.getRecords();
+        long total = pageParam.getTotal();
+        return R.ok().data("total", total).data("rows", records);
     }
 
     @ApiOperation(value = "查询所有的医院设置信息")
@@ -128,7 +139,7 @@ public class HospitalSetController {
     // 根据医院设置id删除医院设置信息
     @ApiOperation(value = "根据医院设置id删除医院设置信息")
     @DeleteMapping(value = "/deleteById/{id}")
-    public R deleteById(@ApiParam(name = "id", value = "医院设置id", required = true) @RequestParam(value = "id") Integer id) {
+    public R deleteById(@PathVariable Integer id) {
         hospitalSetService.removeById(id);
         return R.ok();
     }
