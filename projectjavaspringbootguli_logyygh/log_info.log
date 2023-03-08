@@ -160,3 +160,49 @@ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP
 2023-03-08 22:42:14.957 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 2023-03-08 22:42:14.961 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2023-03-08 22:42:14.963 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-08 22:42:22.176 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospMainStarter - Starting ServiceHospMainStarter on ChenXW with PID 2616 (E:\project\java\springboot\yygh_parent\service\service_hosp\target\classes started by ChenXW in E:\project\java\springboot\yygh_parent)
+2023-03-08 22:42:22.176 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospMainStarter - Starting ServiceHospMainStarter on ChenXW with PID 2616 (E:\project\java\springboot\yygh_parent\service\service_hosp\target\classes started by ChenXW in E:\project\java\springboot\yygh_parent)
+2023-03-08 22:42:22.179 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospMainStarter - The following profiles are active: dev
+2023-03-08 22:42:22.179 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospMainStarter - The following profiles are active: dev
+2023-03-08 22:42:22.236 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-08 22:42:22.237 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-08 22:42:23.070 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-08 22:42:23.321 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
+2023-03-08 22:42:23.329 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+2023-03-08 22:42:23.329 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-08 22:42:23.330 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2023-03-08 22:42:23.402 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-08 22:42:23.402 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1165 ms
+2023-03-08 22:42:24.449 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-08 22:42:24.512 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-08 22:42:24.543 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-03-08 22:42:24.642 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-08 22:42:24.654 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-08 22:42:24.675 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-08 22:42:24.688 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-08 22:42:24.813 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-08 22:42:24.820 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+2023-03-08 22:42:24.836 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8201 (http) with context path ''
+2023-03-08 22:42:24.838 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospMainStarter - Started ServiceHospMainStarter in 3.096 seconds (JVM running for 4.314)
+2023-03-08 22:42:24.838 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospMainStarter - Started ServiceHospMainStarter in 3.096 seconds (JVM running for 4.314)
+2023-03-08 22:42:32.088 [http-nio-8201-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-08 22:42:32.089 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-08 22:42:32.094 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-03-08 22:42:32.337 [http-nio-8201-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-08 22:42:32.470 [http-nio-8201-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-08 23:17:47.299 [http-nio-8201-exec-8] INFO  c.a.yygh.hosp.controller.HospitalSetController - current thread is: 50,params:id=1
+2023-03-08 23:17:47.299 [http-nio-8201-exec-8] INFO  c.a.yygh.hosp.controller.HospitalSetController - current thread is: 50,params:id=1
+2023-03-08 23:17:47.304 [http-nio-8201-exec-8] INFO  c.a.yygh.hosp.controller.HospitalSetController - result: 50HospitalSet(hosname=null, hoscode=null, apiUrl=null, signKey=null, contactsName=null, contactsPhone=null, status=0)
+2023-03-08 23:17:47.304 [http-nio-8201-exec-8] INFO  c.a.yygh.hosp.controller.HospitalSetController - result: 50HospitalSet(hosname=null, hoscode=null, apiUrl=null, signKey=null, contactsName=null, contactsPhone=null, status=0)
+2023-03-08 23:17:47.871 [http-nio-8201-exec-1] INFO  c.a.yygh.hosp.controller.HospitalSetController - current thread is: 43,params:id=1
+2023-03-08 23:17:47.871 [http-nio-8201-exec-1] INFO  c.a.yygh.hosp.controller.HospitalSetController - current thread is: 43,params:id=1
+2023-03-08 23:17:47.874 [http-nio-8201-exec-1] INFO  c.a.yygh.hosp.controller.HospitalSetController - result: 43HospitalSet(hosname=null, hoscode=null, apiUrl=null, signKey=null, contactsName=null, contactsPhone=null, status=1)
+2023-03-08 23:17:47.874 [http-nio-8201-exec-1] INFO  c.a.yygh.hosp.controller.HospitalSetController - result: 43HospitalSet(hosname=null, hoscode=null, apiUrl=null, signKey=null, contactsName=null, contactsPhone=null, status=1)
+2023-03-08 23:17:51.351 [http-nio-8201-exec-3] INFO  c.a.yygh.hosp.controller.HospitalSetController - current thread is: 45,params:id=1
+2023-03-08 23:17:51.351 [http-nio-8201-exec-3] INFO  c.a.yygh.hosp.controller.HospitalSetController - current thread is: 45,params:id=1
+2023-03-08 23:17:51.355 [http-nio-8201-exec-3] INFO  c.a.yygh.hosp.controller.HospitalSetController - result: 45HospitalSet(hosname=null, hoscode=null, apiUrl=null, signKey=null, contactsName=null, contactsPhone=null, status=0)
+2023-03-08 23:17:51.355 [http-nio-8201-exec-3] INFO  c.a.yygh.hosp.controller.HospitalSetController - result: 45HospitalSet(hosname=null, hoscode=null, apiUrl=null, signKey=null, contactsName=null, contactsPhone=null, status=0)
+2023-03-08 23:17:52.040 [http-nio-8201-exec-5] INFO  c.a.yygh.hosp.controller.HospitalSetController - current thread is: 47,params:id=1
+2023-03-08 23:17:52.040 [http-nio-8201-exec-5] INFO  c.a.yygh.hosp.controller.HospitalSetController - current thread is: 47,params:id=1
+2023-03-08 23:17:52.043 [http-nio-8201-exec-5] INFO  c.a.yygh.hosp.controller.HospitalSetController - result: 47HospitalSet(hosname=null, hoscode=null, apiUrl=null, signKey=null, contactsName=null, contactsPhone=null, status=1)
+2023-03-08 23:17:52.043 [http-nio-8201-exec-5] INFO  c.a.yygh.hosp.controller.HospitalSetController - result: 47HospitalSet(hosname=null, hoscode=null, apiUrl=null, signKey=null, contactsName=null, contactsPhone=null, status=1)

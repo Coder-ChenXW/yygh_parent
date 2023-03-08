@@ -32,3 +32,38 @@
 2023-03-08 22:40:27.602 [http-nio-8201-exec-2] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Required Integer parameter 'id' is not present
 2023-03-08 22:41:27.674 [http-nio-8201-exec-5] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Required Integer parameter 'id' is not present
 2023-03-08 22:41:27.674 [http-nio-8201-exec-5] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Required Integer parameter 'id' is not present
+2023-03-08 22:42:23.102 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-08 22:42:23.205 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-08 22:42:23.328 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-08 22:54:54.534 [http-nio-8201-exec-5] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10005' for key 'uk_hoscode'
+### The error may exist in com/atguigu/yygh/hosp/mapper/HospitalSetMapper.java (best guess)
+### The error may involve com.atguigu.yygh.hosp.mapper.HospitalSetMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hospital_set  ( hosname, hoscode, api_url, sign_key, contacts_name, contacts_phone, status )  VALUES  ( ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10005' for key 'uk_hoscode'
+; Duplicate entry '10005' for key 'uk_hoscode'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10005' for key 'uk_hoscode'
+2023-03-08 22:54:54.534 [http-nio-8201-exec-5] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10005' for key 'uk_hoscode'
+### The error may exist in com/atguigu/yygh/hosp/mapper/HospitalSetMapper.java (best guess)
+### The error may involve com.atguigu.yygh.hosp.mapper.HospitalSetMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hospital_set  ( hosname, hoscode, api_url, sign_key, contacts_name, contacts_phone, status )  VALUES  ( ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10005' for key 'uk_hoscode'
+; Duplicate entry '10005' for key 'uk_hoscode'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10005' for key 'uk_hoscode'
+2023-03-08 23:00:01.284 [http-nio-8201-exec-1] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10006' for key 'uk_hoscode'
+### The error may exist in com/atguigu/yygh/hosp/mapper/HospitalSetMapper.java (best guess)
+### The error may involve com.atguigu.yygh.hosp.mapper.HospitalSetMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hospital_set  ( hosname, hoscode, api_url, sign_key, contacts_name, contacts_phone, status )  VALUES  ( ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10006' for key 'uk_hoscode'
+; Duplicate entry '10006' for key 'uk_hoscode'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10006' for key 'uk_hoscode'
+2023-03-08 23:00:01.284 [http-nio-8201-exec-1] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10006' for key 'uk_hoscode'
+### The error may exist in com/atguigu/yygh/hosp/mapper/HospitalSetMapper.java (best guess)
+### The error may involve com.atguigu.yygh.hosp.mapper.HospitalSetMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hospital_set  ( hosname, hoscode, api_url, sign_key, contacts_name, contacts_phone, status )  VALUES  ( ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10006' for key 'uk_hoscode'
+; Duplicate entry '10006' for key 'uk_hoscode'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10006' for key 'uk_hoscode'
