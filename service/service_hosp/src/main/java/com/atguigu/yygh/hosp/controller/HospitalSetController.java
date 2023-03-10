@@ -39,6 +39,17 @@ public class HospitalSetController {
     @Autowired
     private HospitalSetService hospitalSetService;
 
+    @ApiOperation(value = "新增接口")
+    @PostMapping("/save")
+    public R save(@RequestBody HospitalSet hospitalSet) {
+        hospitalSet.setStatus(1);
+        Random random = new Random();
+        hospitalSet.setSignKey(MD5.encrypt(System.currentTimeMillis() + "" + random.nextInt(1000)));
+        hospitalSetService.save(hospitalSet);
+
+        return R.ok();
+    }
+
 
     // 锁定与解锁
     @PutMapping("/status/{id}/{status}")
@@ -76,16 +87,7 @@ public class HospitalSetController {
     }
 
 
-    @ApiOperation(value = "新增接口")
-    @PostMapping("/save")
-    public R save(@RequestBody HospitalSet hospitalSet) {
-        hospitalSet.setStatus(1);
-        Random random = new Random();
-        hospitalSet.setSignKey(MD5.encrypt(System.currentTimeMillis() + "" + random.nextInt(1000)));
-        hospitalSetService.save(hospitalSet);
 
-        return R.ok();
-    }
 
 
 //    @ApiOperation(value = "带查询条件的分页")
@@ -120,18 +122,11 @@ public class HospitalSetController {
         return R.ok().data("total", total).data("rows", records);
     }
 
+
     @ApiOperation(value = "查询所有的医院设置信息")
     @GetMapping(value = "/findAll")
     public R findAll() {
-//        List<HospitalSet> list = null;
-//        try {
-//            list = hospitalSetService.list();
-//        } catch (Exception ex) {
-//            throw new YyghException(200013, "Yygh异常");
-//        }
-
         List<HospitalSet> list = hospitalSetService.list();
-
         return R.ok().data("items", list);
     }
 

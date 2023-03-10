@@ -17,14 +17,14 @@ public class CodeGet {
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
         //gc.setOutputDir(projectPath + "/src/main/java");
-        gc.setOutputDir("E:\\project\\java\\springboot\\yygh_parent\\service\\service_hosp"+"/src/main/java");
+        gc.setOutputDir("E:\\project\\java\\springboot\\yygh_parent\\service\\service_cmn"+"/src/main/java");
         gc.setServiceName("%sService"); //去掉Service接口的首字母I
         gc.setAuthor("atguigu");
         gc.setOpen(false);
         mpg.setGlobalConfig(gc);
         // 3、数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/yygh_hosp");
+        dsc.setUrl("jdbc:mysql://localhost:3306/yygh_cmn");
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("root");
@@ -32,7 +32,7 @@ public class CodeGet {
         mpg.setDataSource(dsc);
         // 4、包配置
         PackageConfig pc = new PackageConfig();
-        pc.setModuleName("hosp"); //模块名
+        pc.setModuleName("cmn"); //模块名
         pc.setParent("com.atguigu.yygh");
         pc.setController("controller");
         pc.setEntity("entity");
@@ -41,7 +41,7 @@ public class CodeGet {
         mpg.setPackageInfo(pc);
         // 5、策略配置
         StrategyConfig strategy = new StrategyConfig();
-        strategy.setInclude("hospital_set");
+        strategy.setInclude("dict");
         strategy.setNaming(NamingStrategy.underline_to_camel);//数据库表映射到实体的命名策略
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);//数据库表字段映射到实体的命名策略
         strategy.setEntityLombokModel(true); // lombok 模型 @Accessors(chain = true) setter链式操作

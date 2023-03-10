@@ -11,6 +11,7 @@
         <module name="coder" />
         <module name="service_utils" />
         <module name="service_hosp" />
+        <module name="service_cmn" />
       </profile>
     </annotationProcessing>
   </component>
@@ -20,6 +21,7 @@
       <module name="common" options="-parameters" />
       <module name="model" options="-parameters" />
       <module name="service" options="-parameters" />
+      <module name="service_cmn" options="-parameters" />
       <module name="service_hosp" options="-parameters" />
       <module name="service_utils" options="-parameters" />
       <module name="yygh_parent" options="-parameters" />
