@@ -1,6 +1,69 @@
-2023-03-10 08:53:05.785 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
-2023-03-10 08:53:05.903 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
-2023-03-10 08:53:06.107 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
-2023-03-10 08:53:11.299 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
-2023-03-10 08:53:11.404 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
-2023-03-10 08:53:11.514 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-12 23:54:04.866 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-12 23:54:04.995 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-12 23:54:05.206 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-12 23:54:19.776 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-12 23:54:19.892 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-12 23:54:20.034 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:09:37.010 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:09:37.139 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:09:37.320 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:09:39.760 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:09:39.786 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8202 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8202 or configure this application to listen on another port.
+
+2023-03-13 00:09:45.024 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:09:45.130 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:09:45.269 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:10:19.119 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:10:19.228 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:10:19.372 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:10:21.207 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:10:21.222 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8202 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8202 or configure this application to listen on another port.
+
+2023-03-13 00:12:32.009 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:12:32.133 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:12:32.300 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:12:41.561 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:12:41.824 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 00:12:42.361 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 08:39:33.909 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 08:39:34.002 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 08:39:34.139 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 08:39:40.139 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 08:39:40.230 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 08:39:40.346 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 10:59:54.461 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 10:59:54.500 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 10:59:54.593 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 13:14:37.729 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 13:14:37.759 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 13:14:37.843 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 13:16:04.486 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 13:16:04.525 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 13:16:04.609 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 13:17:44.204 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 13:17:44.221 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-13 13:17:44.290 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]

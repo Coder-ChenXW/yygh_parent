@@ -1,0 +1,132 @@
+2023-03-10 10:45:46.624 [main] INFO  com.atguigu.yygh.hosp.AppTest - Starting AppTest on ChenXW with PID 2468 (started by ChenXW in E:\project\java\springboot\yygh_parent\service\service_hosp)
+2023-03-10 10:45:46.624 [main] INFO  com.atguigu.yygh.hosp.AppTest - Starting AppTest on ChenXW with PID 2468 (started by ChenXW in E:\project\java\springboot\yygh_parent\service\service_hosp)
+2023-03-10 10:45:46.627 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-10 10:45:46.627 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-10 10:45:47.521 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-10 10:45:47.539 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2023-03-10 10:45:47.875 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-10 10:45:49.362 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-10 10:45:49.711 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-10 10:45:50.657 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.148:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-10 10:45:50.716 [cluster-ClusterId{value='640a99de8cafe16bc98f5ccb', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:7}] to 192.168.200.148:27017
+2023-03-10 10:45:50.720 [cluster-ClusterId{value='640a99de8cafe16bc98f5ccb', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.200.148:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 8]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3078600}
+2023-03-10 10:45:51.023 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-10 10:45:51.042 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-10 10:45:51.070 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 10:45:51.083 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 10:45:51.273 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 10:45:51.283 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 5.042 seconds (JVM running for 5.88)
+2023-03-10 10:45:51.283 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 5.042 seconds (JVM running for 5.88)
+2023-03-10 10:45:51.517 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:8}] to 192.168.200.148:27017
+2023-03-10 10:45:51.553 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:8}] to 192.168.200.148:27017 because the pool has been closed.
+2023-03-10 10:45:51.555 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-10 10:47:54.880 [main] INFO  com.atguigu.yygh.hosp.AppTest - Starting AppTest on ChenXW with PID 3504 (started by ChenXW in E:\project\java\springboot\yygh_parent\service\service_hosp)
+2023-03-10 10:47:54.880 [main] INFO  com.atguigu.yygh.hosp.AppTest - Starting AppTest on ChenXW with PID 3504 (started by ChenXW in E:\project\java\springboot\yygh_parent\service\service_hosp)
+2023-03-10 10:47:54.882 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-10 10:47:54.882 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-10 10:47:55.721 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-10 10:47:55.743 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2023-03-10 10:47:56.096 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-10 10:47:57.821 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-10 10:47:58.252 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-10 10:47:59.251 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.148:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-10 10:47:59.312 [cluster-ClusterId{value='640a9a5f4a9ae2357af65275', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:9}] to 192.168.200.148:27017
+2023-03-10 10:47:59.317 [cluster-ClusterId{value='640a9a5f4a9ae2357af65275', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.200.148:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 8]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3301900}
+2023-03-10 10:47:59.668 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-10 10:47:59.687 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-10 10:47:59.725 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 10:47:59.742 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 10:47:59.957 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 10:47:59.967 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 5.449 seconds (JVM running for 6.242)
+2023-03-10 10:47:59.967 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 5.449 seconds (JVM running for 6.242)
+2023-03-10 10:48:00.186 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:10}] to 192.168.200.148:27017
+2023-03-10 10:48:00.220 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:10}] to 192.168.200.148:27017 because the pool has been closed.
+2023-03-10 10:48:00.222 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-10 10:51:41.123 [main] INFO  com.atguigu.yygh.hosp.AppTest - Starting AppTest on ChenXW with PID 9004 (started by ChenXW in E:\project\java\springboot\yygh_parent\service\service_hosp)
+2023-03-10 10:51:41.123 [main] INFO  com.atguigu.yygh.hosp.AppTest - Starting AppTest on ChenXW with PID 9004 (started by ChenXW in E:\project\java\springboot\yygh_parent\service\service_hosp)
+2023-03-10 10:51:41.125 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-10 10:51:41.125 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-10 10:51:42.108 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-10 10:51:42.126 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2023-03-10 10:51:42.534 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-10 10:51:44.255 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-10 10:51:44.688 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-10 10:51:45.710 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.148:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-10 10:51:45.767 [cluster-ClusterId{value='640a9b4125676e1be4a39624', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:13}] to 192.168.200.148:27017
+2023-03-10 10:51:45.772 [cluster-ClusterId{value='640a9b4125676e1be4a39624', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.200.148:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 8]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3040200}
+2023-03-10 10:51:46.068 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-10 10:51:46.091 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-10 10:51:46.120 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 10:51:46.134 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 10:51:46.393 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 10:51:46.404 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 5.71 seconds (JVM running for 6.757)
+2023-03-10 10:51:46.404 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 5.71 seconds (JVM running for 6.757)
+2023-03-10 10:51:46.624 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:14}] to 192.168.200.148:27017
+2023-03-10 10:51:46.655 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:14}] to 192.168.200.148:27017 because the pool has been closed.
+2023-03-10 10:51:46.657 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-10 10:52:53.620 [main] INFO  com.atguigu.yygh.hosp.AppTest - Starting AppTest on ChenXW with PID 5836 (started by ChenXW in E:\project\java\springboot\yygh_parent\service\service_hosp)
+2023-03-10 10:52:53.620 [main] INFO  com.atguigu.yygh.hosp.AppTest - Starting AppTest on ChenXW with PID 5836 (started by ChenXW in E:\project\java\springboot\yygh_parent\service\service_hosp)
+2023-03-10 10:52:53.621 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-10 10:52:53.621 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-10 10:52:54.528 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-10 10:52:54.551 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2023-03-10 10:52:54.947 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-10 10:52:56.784 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-10 10:52:57.273 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-10 10:52:58.333 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.148:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-10 10:52:58.452 [cluster-ClusterId{value='640a9b8a38fa3c243e706816', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:16}] to 192.168.200.148:27017
+2023-03-10 10:52:58.470 [cluster-ClusterId{value='640a9b8a38fa3c243e706816', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.200.148:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 8]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6002800}
+2023-03-10 10:52:58.944 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-10 10:52:58.968 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-10 10:52:58.995 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 10:52:59.009 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 10:52:59.221 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 10:52:59.231 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 5.963 seconds (JVM running for 6.73)
+2023-03-10 10:52:59.231 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 5.963 seconds (JVM running for 6.73)
+2023-03-10 10:52:59.499 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:17}] to 192.168.200.148:27017
+2023-03-10 10:52:59.543 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:17}] to 192.168.200.148:27017 because the pool has been closed.
+2023-03-10 10:52:59.545 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-10 13:46:20.614 [main] INFO  com.atguigu.yygh.hosp.AppTest - Starting AppTest on ChenXW with PID 19520 (started by ChenXW in E:\project\java\springboot\yygh_parent\service\service_hosp)
+2023-03-10 13:46:20.614 [main] INFO  com.atguigu.yygh.hosp.AppTest - Starting AppTest on ChenXW with PID 19520 (started by ChenXW in E:\project\java\springboot\yygh_parent\service\service_hosp)
+2023-03-10 13:46:20.619 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-10 13:46:20.619 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-10 13:46:21.669 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-10 13:46:21.686 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2023-03-10 13:46:22.034 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-10 13:46:23.683 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-10 13:46:24.102 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-10 13:46:25.181 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.148:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-10 13:46:25.231 [cluster-ClusterId{value='640ac431b7f3df435f4a040b', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:21}] to 192.168.200.148:27017
+2023-03-10 13:46:25.237 [cluster-ClusterId{value='640ac431b7f3df435f4a040b', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.200.148:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 8]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3582400}
+2023-03-10 13:46:25.621 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-10 13:46:25.642 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-10 13:46:25.672 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 13:46:25.688 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 13:46:26.043 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 13:46:26.054 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 5.844 seconds (JVM running for 7.092)
+2023-03-10 13:46:26.054 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 5.844 seconds (JVM running for 7.092)
+2023-03-10 13:46:26.299 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:22}] to 192.168.200.148:27017
+2023-03-10 13:46:26.340 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:22}] to 192.168.200.148:27017 because the pool has been closed.
+2023-03-10 13:46:26.343 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-10 13:50:10.167 [main] INFO  com.atguigu.yygh.hosp.AppTest - Starting AppTest on ChenXW with PID 3136 (started by ChenXW in E:\project\java\springboot\yygh_parent\service\service_hosp)
+2023-03-10 13:50:10.167 [main] INFO  com.atguigu.yygh.hosp.AppTest - Starting AppTest on ChenXW with PID 3136 (started by ChenXW in E:\project\java\springboot\yygh_parent\service\service_hosp)
+2023-03-10 13:50:10.169 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-10 13:50:10.169 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-10 13:50:10.929 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-10 13:50:10.945 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2023-03-10 13:50:11.262 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-10 13:50:12.736 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-10 13:50:13.059 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-10 13:50:14.045 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.148:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-10 13:50:14.097 [cluster-ClusterId{value='640ac516c2c83562afea66f1', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:23}] to 192.168.200.148:27017
+2023-03-10 13:50:14.101 [cluster-ClusterId{value='640ac516c2c83562afea66f1', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.200.148:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 8]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3117400}
+2023-03-10 13:50:14.388 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-10 13:50:14.406 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-10 13:50:14.432 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 13:50:14.446 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 13:50:14.651 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-10 13:50:14.661 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 4.815 seconds (JVM running for 5.519)
+2023-03-10 13:50:14.661 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 4.815 seconds (JVM running for 5.519)
+2023-03-10 13:50:14.854 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:24}] to 192.168.200.148:27017
+2023-03-10 13:50:14.879 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:24}] to 192.168.200.148:27017 because the pool has been closed.
+2023-03-10 13:50:14.881 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
