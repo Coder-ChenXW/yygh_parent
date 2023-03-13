@@ -7,6 +7,7 @@ import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -33,6 +34,7 @@ public class BaseEntity implements Serializable {
     @TableLogic
     @TableField("is_deleted")
     private Integer isDeleted;
+
 
     @ApiModelProperty(value = "其他参数")
     @TableField(exist = false)
