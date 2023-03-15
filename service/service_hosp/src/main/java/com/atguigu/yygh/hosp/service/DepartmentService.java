@@ -11,4 +11,6 @@ public interface DepartmentService  {
 
     Page<Department> getDepartmentPage(Map<String, Object> stringObjectMap);
 
+    void remove(Map<String, Object> stringObjectMap);
+
 }

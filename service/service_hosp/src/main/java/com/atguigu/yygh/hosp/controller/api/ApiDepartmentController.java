@@ -1,4 +1,4 @@
-package com.atguigu.yygh.hosp.controller;
+package com.atguigu.yygh.hosp.controller.api;
 
 
 import com.atguigu.yygh.hosp.bean.Result;
@@ -7,8 +7,6 @@ import com.atguigu.yygh.hosp.utils.HttpRequestHelper;
 import com.atguigu.yygh.model.hosp.Department;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,11 +17,27 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/hosp")
-public class DepartmentController {
+public class ApiDepartmentController {
 
 
     @Autowired
     private DepartmentService departmentService;
+
+
+    /**
+     * @description: 医院的删除
+     * @author: ChenXW
+     * @date: 2023-03-14 9:09
+     */
+    @PostMapping("/department/remove")
+    public Result remove(HttpServletRequest httpServletRequest) {
+        Map<String, Object> stringObjectMap = HttpRequestHelper.switchMap(httpServletRequest.getParameterMap());
+         // signkey验证
+        departmentService.remove(stringObjectMap);
+
+        return Result.ok();
+
+    }
 
 
     /**

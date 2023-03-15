@@ -200,8 +200,11 @@ public class ApiServiceImpl implements ApiService {
         paramMap.put("limit",pageSize);
         paramMap.put("timestamp", HttpRequestHelper.getTimestamp());
         paramMap.put("sign", HttpRequestHelper.getSignSingle(this.getSignKey()));
+
         JSONObject respone = HttpRequestHelper.sendRequest(paramMap,this.getApiUrl()+"/api/hosp/schedule/list");
-        System.out.println(respone.toJSONString());
+
+//        System.out.println(respone.toJSONString());
+
         if(null != respone && 200 == respone.getIntValue("code")) {
             JSONObject jsonObject = respone.getJSONObject("data");
 
@@ -273,7 +276,7 @@ public class ApiServiceImpl implements ApiService {
                 throw new YyghException(respone.getString("message"), 201);
             }
         }
-        return false;
+        return true;
     }
 
     @Override
@@ -285,6 +288,7 @@ public class ApiServiceImpl implements ApiService {
         paramMap.put("sign", HttpRequestHelper.getSignSingle(this.getSignKey()));
         JSONObject respone = HttpRequestHelper.sendRequest(paramMap,this.getApiUrl()+"/api/hosp/schedule/remove");
         System.out.println(respone.toJSONString());
+
         if(null != respone && 200 == respone.getIntValue("code")) {
             return true;
         } else {
