@@ -828,3 +828,908 @@
 2023-03-13 22:27:51.029 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 2023-03-13 22:27:51.036 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:4, serverValue:103}] to 192.168.200.148:27017 because the pool has been closed.
 2023-03-13 22:27:51.036 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:101}] to 192.168.200.148:27017 because the pool has been closed.
+2023-03-16 10:25:53.091 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-16 10:25:53.091 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-16 10:25:53.839 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-16 10:25:53.918 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73ms. Found 4 repository interfaces.
+2023-03-16 10:25:54.225 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=5ca7ecb0-aaa6-3fc8-91c2-0b8c5f43bad6
+2023-03-16 10:25:54.480 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 10:25:54.522 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 10:25:55.348 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.148:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-16 10:25:55.403 [cluster-ClusterId{value='64127e33c27627087acf2020', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:18}] to 192.168.200.148:27017
+2023-03-16 10:25:55.408 [cluster-ClusterId{value='64127e33c27627087acf2020', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.200.148:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 8]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2990600}
+2023-03-16 10:25:55.742 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:19}] to 192.168.200.148:27017
+2023-03-16 10:25:57.510 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-16 10:25:57.671 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-16 10:25:57.680 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-16 10:25:57.922 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-16 10:25:58.692 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2023-03-16 10:26:00.004 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-16 10:26:00.026 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-16 10:26:00.053 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-16 10:26:00.230 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeUsingPOST_1
+2023-03-16 10:26:00.246 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-16 10:26:00.353 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-16 10:26:00.530 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 9.271 seconds (JVM running for 10.202)
+2023-03-16 10:26:00.530 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 9.271 seconds (JVM running for 10.202)
+2023-03-16 10:26:00.967 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.atguigu.yygh.hosp.RepositoryTest], using SpringBootContextLoader
+2023-03-16 10:26:00.968 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.atguigu.yygh.hosp.RepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-16 10:26:00.969 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.atguigu.yygh.hosp.RepositoryTest]: RepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-16 10:26:00.976 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.atguigu.yygh.hosp.ServiceHospMainStarter for test class com.atguigu.yygh.hosp.RepositoryTest
+2023-03-16 10:26:00.979 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-03-16 10:26:00.980 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7846913f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@48da64f2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@60b553f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2aa811f9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66abb2fa, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7d4da729, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2133b712, org.springframework.test.context.event.EventPublishingTestExecutionListener@4b7e4d14, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@70f91ae3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@601d9f3a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5c2a3f0c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6585df70, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5d93ff21]
+2023-03-16 10:26:02.196 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-16 10:26:02.196 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-16 10:26:02.583 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-16 10:26:02.599 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 4 repository interfaces.
+2023-03-16 10:26:02.645 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=5ca7ecb0-aaa6-3fc8-91c2-0b8c5f43bad6
+2023-03-16 10:26:02.690 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 10:26:02.714 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 10:26:02.760 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.148:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-16 10:26:02.766 [cluster-ClusterId{value='64127e3ac27627087acf2021', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:20}] to 192.168.200.148:27017
+2023-03-16 10:26:02.769 [cluster-ClusterId{value='64127e3ac27627087acf2021', description='null'}-192.168.200.148:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.200.148:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 8]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1501100}
+2023-03-16 10:26:02.860 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:21}] to 192.168.200.148:27017
+2023-03-16 10:26:03.657 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-16 10:26:03.816 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-16 10:26:04.509 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2023-03-16 10:26:05.657 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-16 10:26:05.659 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-16 10:26:05.665 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-16 10:26:05.700 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeUsingPOST_1
+2023-03-16 10:26:05.708 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-16 10:26:05.800 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-16 10:26:05.815 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - Started RepositoryTest in 4.831 seconds (JVM running for 15.487)
+2023-03-16 10:26:05.815 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - Started RepositoryTest in 4.831 seconds (JVM running for 15.487)
+2023-03-16 10:26:05.919 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-16 10:26:05.919 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-16 10:26:05.928 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:4, serverValue:21}] to 192.168.200.148:27017 because the pool has been closed.
+2023-03-16 10:26:05.928 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:19}] to 192.168.200.148:27017 because the pool has been closed.
+2023-03-16 20:37:10.385 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-16 20:37:10.385 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-16 20:37:11.156 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-16 20:37:11.228 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68ms. Found 4 repository interfaces.
+2023-03-16 20:37:11.529 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=5ca7ecb0-aaa6-3fc8-91c2-0b8c5f43bad6
+2023-03-16 20:37:11.809 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 20:37:11.856 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 20:37:12.822 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-16 20:37:12.884 [cluster-ClusterId{value='64130d787eba12720ee38f50', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:28}] to 192.168.200.150:27017
+2023-03-16 20:37:12.889 [cluster-ClusterId{value='64130d787eba12720ee38f50', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.200.150:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 8]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3023000}
+2023-03-16 20:37:13.241 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:29}] to 192.168.200.150:27017
+2023-03-16 20:37:14.910 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-16 20:37:15.064 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-16 20:37:15.072 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-16 20:37:15.288 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-16 20:37:16.054 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2023-03-16 20:37:17.351 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-16 20:37:17.367 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-16 20:37:17.397 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-16 20:37:17.527 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeUsingPOST_1
+2023-03-16 20:37:17.540 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-16 20:37:17.587 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: detailUsingGET_1
+2023-03-16 20:37:17.631 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateStatusUsingPUT_1
+2023-03-16 20:37:17.644 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-16 20:37:17.792 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 9.228 seconds (JVM running for 10.073)
+2023-03-16 20:37:17.792 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 9.228 seconds (JVM running for 10.073)
+2023-03-16 20:37:18.244 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.atguigu.yygh.hosp.RepositoryTest], using SpringBootContextLoader
+2023-03-16 20:37:18.245 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.atguigu.yygh.hosp.RepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-16 20:37:18.246 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.atguigu.yygh.hosp.RepositoryTest]: RepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-16 20:37:18.252 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.atguigu.yygh.hosp.ServiceHospMainStarter for test class com.atguigu.yygh.hosp.RepositoryTest
+2023-03-16 20:37:18.254 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-03-16 20:37:18.255 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1d5bb5c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7846913f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@48da64f2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@60b553f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2aa811f9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@66abb2fa, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7d4da729, org.springframework.test.context.event.EventPublishingTestExecutionListener@2133b712, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b7e4d14, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@70f91ae3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@601d9f3a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5c2a3f0c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6585df70]
+2023-03-16 20:37:19.451 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-16 20:37:19.451 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-16 20:37:19.776 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-16 20:37:19.791 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 4 repository interfaces.
+2023-03-16 20:37:19.824 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=5ca7ecb0-aaa6-3fc8-91c2-0b8c5f43bad6
+2023-03-16 20:37:19.863 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 20:37:19.891 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 20:37:19.936 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-16 20:37:19.940 [cluster-ClusterId{value='64130d7f7eba12720ee38f51', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:30}] to 192.168.200.150:27017
+2023-03-16 20:37:19.943 [cluster-ClusterId{value='64130d7f7eba12720ee38f51', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.200.150:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 8]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=735700}
+2023-03-16 20:37:20.026 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:31}] to 192.168.200.150:27017
+2023-03-16 20:37:20.907 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-16 20:37:21.056 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-16 20:37:21.791 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2023-03-16 20:37:22.983 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-16 20:37:22.984 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-16 20:37:22.989 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-16 20:37:23.017 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeUsingPOST_1
+2023-03-16 20:37:23.023 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-16 20:37:23.043 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: detailUsingGET_1
+2023-03-16 20:37:23.073 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateStatusUsingPUT_1
+2023-03-16 20:37:23.084 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-16 20:37:23.099 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - Started RepositoryTest in 4.842 seconds (JVM running for 15.381)
+2023-03-16 20:37:23.099 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - Started RepositoryTest in 4.842 seconds (JVM running for 15.381)
+2023-03-16 20:37:23.184 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-16 20:37:23.184 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-16 20:37:23.194 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:29}] to 192.168.200.150:27017 because the pool has been closed.
+2023-03-16 20:37:23.194 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:4, serverValue:31}] to 192.168.200.150:27017 because the pool has been closed.
+2023-03-17 00:15:02.801 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 00:15:02.801 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 00:15:03.944 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 00:15:04.133 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 176ms. Found 4 repository interfaces.
+2023-03-17 00:15:04.651 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 00:15:04.941 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 00:15:04.988 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 00:15:06.003 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 00:15:06.070 [cluster-ClusterId{value='64134089e24948342c2e566f', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:149}] to 192.168.200.150:27017
+2023-03-17 00:15:06.077 [cluster-ClusterId{value='64134089e24948342c2e566f', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.200.150:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 8]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4099900}
+2023-03-17 00:15:06.647 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:150}] to 192.168.200.150:27017
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              2023-03-17 09:27:54.370 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 09:27:54.370 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 09:27:55.588 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 09:27:55.588 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 09:27:56.819 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 09:27:56.819 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 09:27:58.060 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 09:27:58.060 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 09:27:59.125 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 09:27:59.125 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 09:28:00.200 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 09:28:00.200 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 09:28:01.892 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 09:28:01.892 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:10:08.175 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:10:08.175 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:10:09.081 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:10:09.167 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82ms. Found 4 repository interfaces.
+2023-03-17 10:10:09.475 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:10:09.720 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:10:09.767 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:10:10.653 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:10:11.020 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:10:30.689 [cluster-ClusterId{value='6413cc02cb06fe66992bbac4', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:10:41.049 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:10:42.824 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:10:42.824 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:10:43.203 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:10:43.217 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 4 repository interfaces.
+2023-03-17 10:10:43.273 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:10:43.337 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:10:43.365 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:10:43.414 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:10:43.500 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:11:03.421 [cluster-ClusterId{value='6413cc23cb06fe66992bbac5', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:11:13.514 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:11:15.554 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:11:15.554 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:11:16.060 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:11:16.083 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 4 repository interfaces.
+2023-03-17 10:11:16.217 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:11:16.335 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:11:16.393 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:11:16.473 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:11:16.594 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:12:01.468 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:12:01.468 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:12:02.194 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:12:02.295 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94ms. Found 4 repository interfaces.
+2023-03-17 10:12:02.590 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:12:02.796 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:12:02.851 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:12:03.660 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:12:03.962 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:12:23.702 [cluster-ClusterId{value='6413cc73bf7f72701f81a1d1', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:12:33.983 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:12:35.168 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:12:35.168 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:12:35.496 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:12:35.511 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 4 repository interfaces.
+2023-03-17 10:12:35.553 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:12:35.595 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:12:35.620 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:12:35.660 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:12:35.734 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:12:55.669 [cluster-ClusterId{value='6413cc93bf7f72701f81a1d2', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:13:05.744 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:13:06.832 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:13:06.832 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:13:07.121 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:13:07.135 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 4 repository interfaces.
+2023-03-17 10:13:07.170 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:13:07.211 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:13:07.239 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:13:07.282 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:13:07.364 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:13:27.285 [cluster-ClusterId{value='6413ccb3bf7f72701f81a1d3', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:13:37.379 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:13:38.469 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:13:38.469 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:13:38.732 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:13:38.744 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 4 repository interfaces.
+2023-03-17 10:13:38.777 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:13:38.827 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:13:38.859 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:13:38.904 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:13:39.008 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:13:58.912 [cluster-ClusterId{value='6413ccd2bf7f72701f81a1d4', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:14:09.014 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:14:10.141 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:14:10.141 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:14:10.396 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:14:10.408 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 4 repository interfaces.
+2023-03-17 10:14:10.431 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:14:10.463 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:14:10.485 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:14:10.515 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:14:10.576 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:14:30.525 [cluster-ClusterId{value='6413ccf2bf7f72701f81a1d5', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:14:40.580 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:14:41.718 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:14:41.718 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:14:41.944 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:14:41.955 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 4 repository interfaces.
+2023-03-17 10:14:41.981 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:14:42.020 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:14:42.039 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:14:42.068 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:14:42.120 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:15:02.074 [cluster-ClusterId{value='6413cd12bf7f72701f81a1d6', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:15:12.127 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:15:13.234 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:15:13.234 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:15:13.456 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:15:13.467 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 4 repository interfaces.
+2023-03-17 10:15:13.487 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:15:13.516 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:15:13.534 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:15:13.559 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:15:13.616 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:15:33.562 [cluster-ClusterId{value='6413cd31bf7f72701f81a1d7', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:15:43.629 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:15:43.638 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.atguigu.yygh.hosp.RepositoryTest], using SpringBootContextLoader
+2023-03-17 10:15:43.639 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.atguigu.yygh.hosp.RepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-17 10:15:43.642 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.atguigu.yygh.hosp.RepositoryTest]: RepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-17 10:15:43.649 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.atguigu.yygh.hosp.ServiceHospMainStarter for test class com.atguigu.yygh.hosp.RepositoryTest
+2023-03-17 10:15:43.651 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-03-17 10:15:43.651 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@628cb8e0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19f9404d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5481f204, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@171b0d3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@63d43a5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@55159007, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@edf4973, org.springframework.test.context.event.EventPublishingTestExecutionListener@2a49753, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6e68ccc9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1784fcab, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@63e4bbf9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@455cb6d9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6d7a343f]
+2023-03-17 10:15:45.001 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:15:45.001 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:15:45.539 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:15:45.554 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 4 repository interfaces.
+2023-03-17 10:15:45.598 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:15:45.640 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:15:45.677 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:15:45.733 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:15:45.800 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:16:05.741 [cluster-ClusterId{value='6413cd51bf7f72701f81a1d8', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:16:15.820 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:16:17.670 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:16:17.670 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:16:17.922 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:16:17.935 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 4 repository interfaces.
+2023-03-17 10:16:17.966 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:16:18.007 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:16:18.026 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:16:18.062 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:16:18.116 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:16:38.067 [cluster-ClusterId{value='6413cd72bf7f72701f81a1d9', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:16:48.133 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:16:49.528 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:16:49.528 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:16:49.739 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:16:49.748 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 4 repository interfaces.
+2023-03-17 10:16:49.773 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:16:49.803 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:16:49.826 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:16:49.856 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:16:49.856 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:16:49.862 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:16:49.923 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:16:50.589 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:16:50.648 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 4 repository interfaces.
+2023-03-17 10:16:50.921 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:16:51.169 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:16:51.223 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:16:52.054 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:16:52.386 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:17:09.870 [cluster-ClusterId{value='6413cd91bf7f72701f81a1da', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:17:12.090 [cluster-ClusterId{value='6413cd944a27f85865eddef5', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:17:19.932 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:17:21.029 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:17:21.029 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:17:21.244 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:17:21.256 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 4 repository interfaces.
+2023-03-17 10:17:21.282 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:17:21.322 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:17:21.350 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:17:21.381 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:17:21.421 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:17:22.406 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:17:23.500 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:17:23.500 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:17:23.826 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:17:23.842 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 4 repository interfaces.
+2023-03-17 10:17:23.879 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:17:23.920 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:17:23.943 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:17:23.981 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:17:24.051 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:17:41.397 [cluster-ClusterId{value='6413cdb1bf7f72701f81a1db', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:17:43.988 [cluster-ClusterId{value='6413cdb34a27f85865eddef6', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:17:51.428 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:17:52.527 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:17:52.527 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:17:52.727 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:17:52.736 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 4 repository interfaces.
+2023-03-17 10:17:52.753 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:17:52.779 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:17:52.797 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:17:52.823 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:17:52.872 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:17:54.068 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:17:55.096 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:17:55.096 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:17:55.370 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:17:55.382 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 4 repository interfaces.
+2023-03-17 10:17:55.415 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:17:55.454 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:17:55.478 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:17:55.516 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:17:55.575 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:18:12.827 [cluster-ClusterId{value='6413cdd0bf7f72701f81a1dc', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:18:15.525 [cluster-ClusterId{value='6413cdd34a27f85865eddef7', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:18:22.887 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:18:23.962 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:18:23.962 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:18:24.163 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:18:24.172 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 4 repository interfaces.
+2023-03-17 10:18:24.189 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:18:24.221 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:18:24.237 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:18:24.261 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:18:24.309 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:18:25.591 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:18:26.635 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:18:26.635 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:18:26.903 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:18:26.917 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 4 repository interfaces.
+2023-03-17 10:18:26.967 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:18:27.012 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:18:27.042 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:18:27.087 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:18:27.165 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:18:44.263 [cluster-ClusterId{value='6413cdf0bf7f72701f81a1dd', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:18:47.099 [cluster-ClusterId{value='6413cdf34a27f85865eddef8', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:18:54.314 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:18:57.169 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:18:58.229 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:18:58.229 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:18:58.484 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:18:58.496 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 4 repository interfaces.
+2023-03-17 10:18:58.525 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:18:58.565 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:18:58.593 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:18:58.637 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:18:58.704 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:19:18.652 [cluster-ClusterId{value='6413ce124a27f85865eddef9', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.200.150:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2023-03-17 10:19:28.709 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-17 10:19:29.704 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:19:29.704 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:19:29.901 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:19:29.913 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 4 repository interfaces.
+2023-03-17 10:19:29.938 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:19:29.971 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:19:29.990 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:19:30.026 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:19:30.088 [main] INFO  org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2023-03-17 10:19:59.332 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:19:59.332 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:19:59.974 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:20:00.047 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68ms. Found 4 repository interfaces.
+2023-03-17 10:20:00.306 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:20:00.524 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:20:00.560 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:20:01.344 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:20:01.397 [cluster-ClusterId{value='6413ce512898665d7f480cb3', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2023-03-17 10:20:01.401 [cluster-ClusterId{value='6413ce512898665d7f480cb3', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 22]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2504300}
+2023-03-17 10:20:01.665 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2023-03-17 10:20:03.317 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-17 10:20:03.464 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-17 10:20:03.471 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-17 10:20:03.709 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-17 10:20:04.435 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2023-03-17 10:20:05.665 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-17 10:20:05.683 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-17 10:20:05.712 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-17 10:20:05.836 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeUsingPOST_1
+2023-03-17 10:20:05.853 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-17 10:20:05.911 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: detailUsingGET_1
+2023-03-17 10:20:05.948 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateStatusUsingPUT_1
+2023-03-17 10:20:05.958 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-17 10:20:06.124 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 8.28 seconds (JVM running for 8.999)
+2023-03-17 10:20:06.124 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 8.28 seconds (JVM running for 8.999)
+2023-03-17 10:20:06.442 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.atguigu.yygh.hosp.RepositoryTest], using SpringBootContextLoader
+2023-03-17 10:20:06.443 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.atguigu.yygh.hosp.RepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-17 10:20:06.444 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.atguigu.yygh.hosp.RepositoryTest]: RepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-17 10:20:06.449 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.atguigu.yygh.hosp.ServiceHospMainStarter for test class com.atguigu.yygh.hosp.RepositoryTest
+2023-03-17 10:20:06.452 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-03-17 10:20:06.453 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4ac7856f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@432f4626, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@297c3a43, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4c79ca55, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3a63d248, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3c4ad54, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b22214d, org.springframework.test.context.event.EventPublishingTestExecutionListener@498b611e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6dde1bf5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4b56b517, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1124dd79, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@335cdd2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1ea96ff2]
+2023-03-17 10:20:07.612 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:20:07.612 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:20:07.931 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:20:07.943 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 4 repository interfaces.
+2023-03-17 10:20:07.996 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:20:08.049 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:20:08.075 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:20:08.129 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:20:08.133 [cluster-ClusterId{value='6413ce582898665d7f480cb4', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:3}] to localhost:27017
+2023-03-17 10:20:08.135 [cluster-ClusterId{value='6413ce582898665d7f480cb4', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 22]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=444500}
+2023-03-17 10:20:08.196 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:4}] to localhost:27017
+2023-03-17 10:20:08.891 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-17 10:20:09.034 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-17 10:20:09.667 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2023-03-17 10:20:10.775 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-17 10:20:10.776 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-17 10:20:10.781 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-17 10:20:10.810 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeUsingPOST_1
+2023-03-17 10:20:10.819 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-17 10:20:10.841 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: detailUsingGET_1
+2023-03-17 10:20:10.876 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateStatusUsingPUT_1
+2023-03-17 10:20:10.887 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-17 10:20:10.904 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - Started RepositoryTest in 4.448 seconds (JVM running for 13.779)
+2023-03-17 10:20:10.904 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - Started RepositoryTest in 4.448 seconds (JVM running for 13.779)
+2023-03-17 10:20:10.995 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-17 10:20:10.995 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-17 10:20:11.004 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:4, serverValue:4}] to localhost:27017 because the pool has been closed.
+2023-03-17 10:20:11.004 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:27017 because the pool has been closed.
+2023-03-17 10:57:08.168 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:57:08.168 [main] INFO  com.atguigu.yygh.hosp.AppTest - The following profiles are active: dev
+2023-03-17 10:57:08.857 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:57:08.924 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63ms. Found 4 repository interfaces.
+2023-03-17 10:57:09.238 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:57:09.446 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:57:09.483 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:57:10.429 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:57:10.522 [cluster-ClusterId{value='6413d7061c7f4944d9c1c05f', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:5}] to 192.168.200.150:27017
+2023-03-17 10:57:10.526 [cluster-ClusterId{value='6413d7061c7f4944d9c1c05f', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.200.150:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 8]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3048200}
+2023-03-17 10:57:11.484 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:6}] to 192.168.200.150:27017
+2023-03-17 10:57:13.347 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-17 10:57:13.480 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-17 10:57:13.488 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-17 10:57:13.706 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-17 10:57:14.440 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2023-03-17 10:57:15.639 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-17 10:57:15.654 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-17 10:57:15.677 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-17 10:57:15.793 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeUsingPOST_1
+2023-03-17 10:57:15.806 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-17 10:57:15.849 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: detailUsingGET_1
+2023-03-17 10:57:15.896 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateStatusUsingPUT_1
+2023-03-17 10:57:15.911 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-17 10:57:16.057 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 9.369 seconds (JVM running for 10.255)
+2023-03-17 10:57:16.057 [main] INFO  com.atguigu.yygh.hosp.AppTest - Started AppTest in 9.369 seconds (JVM running for 10.255)
+2023-03-17 10:57:16.390 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.atguigu.yygh.hosp.RepositoryTest], using SpringBootContextLoader
+2023-03-17 10:57:16.391 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.atguigu.yygh.hosp.RepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-17 10:57:16.392 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.atguigu.yygh.hosp.RepositoryTest]: RepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-17 10:57:16.400 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.atguigu.yygh.hosp.ServiceHospMainStarter for test class com.atguigu.yygh.hosp.RepositoryTest
+2023-03-17 10:57:16.402 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-03-17 10:57:16.403 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2aa811f9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@66abb2fa, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7d4da729, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2133b712, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b7e4d14, org.springframework.test.context.transaction.TransactionalTestExecutionListener@70f91ae3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@601d9f3a, org.springframework.test.context.event.EventPublishingTestExecutionListener@5c2a3f0c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6585df70, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5d93ff21, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@51fb5fe6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5ca4c88a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1791e231]
+2023-03-17 10:57:17.554 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:57:17.554 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - The following profiles are active: dev
+2023-03-17 10:57:17.876 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-03-17 10:57:17.891 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 4 repository interfaces.
+2023-03-17 10:57:17.934 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=db7f8a5a-b10f-3daa-8dfe-3012ae4a0571
+2023-03-17 10:57:17.973 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:57:18.002 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-17 10:57:18.044 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.200.150:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-03-17 10:57:18.048 [cluster-ClusterId{value='6413d70e1c7f4944d9c1c060', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:7}] to 192.168.200.150:27017
+2023-03-17 10:57:18.052 [cluster-ClusterId{value='6413d70e1c7f4944d9c1c060', description='null'}-192.168.200.150:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.200.150:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 8]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=960500}
+2023-03-17 10:57:18.116 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:8}] to 192.168.200.150:27017
+2023-03-17 10:57:18.852 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-17 10:57:18.995 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-17 10:57:19.644 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2023-03-17 10:57:20.787 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-17 10:57:20.788 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2023-03-17 10:57:20.793 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-17 10:57:20.821 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeUsingPOST_1
+2023-03-17 10:57:20.828 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-17 10:57:20.847 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: detailUsingGET_1
+2023-03-17 10:57:20.874 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateStatusUsingPUT_1
+2023-03-17 10:57:20.881 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-17 10:57:20.891 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - Started RepositoryTest in 4.484 seconds (JVM running for 15.089)
+2023-03-17 10:57:20.891 [main] INFO  com.atguigu.yygh.hosp.RepositoryTest - Started RepositoryTest in 4.484 seconds (JVM running for 15.089)
+2023-03-17 10:57:20.980 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-17 10:57:20.980 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-17 10:57:20.990 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:6}] to 192.168.200.150:27017 because the pool has been closed.
+2023-03-17 10:57:20.990 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:4, serverValue:8}] to 192.168.200.150:27017 because the pool has been closed.

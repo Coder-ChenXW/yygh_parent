@@ -29,7 +29,6 @@ import java.util.Random;
  * @author atguigu
  * @since 2023-03-02
  */
-@CrossOrigin
 @RestController
 @Api(tags = "医院设置信息")
 @RequestMapping("/admin/hosp/hospitalSet")

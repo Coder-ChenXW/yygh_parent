@@ -30,7 +30,6 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/admin/cmn")
-@CrossOrigin
 public class DictController {
 
 
@@ -73,5 +72,32 @@ public class DictController {
         List<Dict> list = dictService.getChildListByPid(pid);
         return R.ok().data("items", list);
     }
+
+
+    /**
+     * @description: 根据医院所属的省市区编号获取省市区的文字
+     * @author: ChenXW
+     * @date: 2023-03-16 8:55
+     */
+    @GetMapping("/{value}")
+    public String getNameByValue(@PathVariable("value") Long value) {
+
+        return dictService.getNameByValue(value);
+    }
+
+
+    /**
+     * @description: 根据医院的等级编号获取医院的信息
+     * @author: ChenXW
+     * @date: 2023-03-16 9:01
+     */
+    @GetMapping("/{dictCode}/{value}")
+    public String getNameByDictCodeAndValue(@PathVariable("dictCode") String dictCode,
+                                            @PathVariable("value") Long value) {
+
+        return dictService.getNameByDictCodeAndValue(dictCode, value);
+    }
+
+
 }
 

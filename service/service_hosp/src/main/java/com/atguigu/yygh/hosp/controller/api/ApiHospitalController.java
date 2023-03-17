@@ -9,9 +9,7 @@ import com.atguigu.yygh.hosp.utils.HttpRequestHelper;
 import com.atguigu.yygh.model.hosp.Hospital;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
@@ -30,7 +28,6 @@ public class ApiHospitalController {
 //        Map<String, String[]> parameterMap = request.getParameterMap();
         Map<String, Object> stringObjectMap = HttpRequestHelper.switchMap(request.getParameterMap());
         String hoscode = (String) stringObjectMap.get("hoscode");
-
 
 
         Hospital hospital = hospitalService.getHospitalByHoscode(hoscode);

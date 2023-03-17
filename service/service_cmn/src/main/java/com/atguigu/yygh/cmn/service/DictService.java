@@ -24,4 +24,8 @@ public interface DictService extends IService<Dict> {
     void download(HttpServletResponse response) throws IOException;
 
     void upload(MultipartFile file) throws IOException;
+
+    String getNameByValue(Long value);
+
+    String getNameByDictCodeAndValue(String dictCode,Long value);
 }

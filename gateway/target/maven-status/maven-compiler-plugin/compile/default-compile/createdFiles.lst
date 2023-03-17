@@ -1,0 +1,3 @@
+com\atguigu\yygh\gateway\config\CorsConfig.class
+com\atguigu\yygh\gateway\filter\MyGlobalFilter.class
+com\atguigu\yygh\gateway\ApiGatewayApplication.class
