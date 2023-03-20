@@ -21,17 +21,17 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="coder" options="-parameters" />
-      <module name="common" options="-parameters" />
+      <module name="common" options="" />
       <module name="gateway" options="-parameters" />
       <module name="hospital-manage" options="-parameters" />
       <module name="model" options="-parameters" />
-      <module name="service" options="-parameters" />
-      <module name="service_client" options="-parameters" />
+      <module name="service" options="" />
+      <module name="service_client" options="" />
       <module name="service_cmn" options="-parameters" />
       <module name="service_cmn_client" options="-parameters" />
       <module name="service_hosp" options="-parameters" />
       <module name="service_utils" options="-parameters" />
-      <module name="yygh_parent" options="-parameters" />
+      <module name="yygh_parent" options="" />
     </option>
   </component>
 </project>

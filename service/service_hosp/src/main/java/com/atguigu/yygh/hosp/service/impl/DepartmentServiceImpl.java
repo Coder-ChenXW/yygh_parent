@@ -123,7 +123,16 @@ public class DepartmentServiceImpl implements DepartmentService {
         }
 
         return bigDepartmentList;
-//        return null;
+
+    }
+
+    @Override
+    public String getDepName(String hoscode, String depcode) {
+        Department department = departmentRepository.findByHoscodeAndDepcode(hoscode, depcode);
+        if (department != null) {
+            return department.getDepname();
+        }
+        return " ";
     }
 
 }

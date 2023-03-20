@@ -63,5 +63,10 @@ public class R {
         return this;
     }
 
+    public R data(Map<String, Object> map) {
+        this.data = map;
+        return this;
+    }
+
 
 }
