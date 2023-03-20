@@ -24,7 +24,7 @@ import java.util.List;
  * </p>
  */
 
-@Component
+//@Component
 public class MyGlobalFilter implements GlobalFilter, Ordered {
 
     private AntPathMatcher antPathMatcher = new AntPathMatcher();
