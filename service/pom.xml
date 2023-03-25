@@ -14,6 +14,8 @@
     <modules>
         <module>service_hosp</module>
         <module>service_cmn</module>
+        <module>service_user</module>
+        <module>service_sms</module>
     </modules>
 
 
@@ -66,6 +68,18 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
+
+        <!-- redis -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+        </dependency>
+
 
     </dependencies>
 

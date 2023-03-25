@@ -17,6 +17,8 @@
     <file url="file://$PROJECT_DIR$/service/service_cmn/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service/service_hosp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service/service_hosp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service_sms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service_user/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service_client/service_cmn_client/src/main/java" charset="UTF-8" />

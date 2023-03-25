@@ -180,6 +180,15 @@ public class HospitalServiceImpl implements HospitalService {
         return hospitalRepository.findByHosnameLike(name);
     }
 
+    @Override
+    public Hospital getHospitalDetail(String hoscode) {
+
+        Hospital hospital = hospitalRepository.findByHoscode(hoscode);
+
+        this.packageHospital(hospital);
+
+        return hospital;
+    }
 
 
     private void packageHospital(Hospital hospital) {

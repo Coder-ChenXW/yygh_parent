@@ -50,4 +50,18 @@ public class UserHospitalController {
     }
 
 
+    /**
+     * @description: 查询医院的详情信息
+     * @author: ChenXW
+     * @date: 2023-03-20 11:16
+     */
+    @GetMapping("/detail/{hoscode}")
+    public R getHospitalDetail(@PathVariable String hoscode) {
+
+        Hospital hospital = hospitalService.getHospitalDetail(hoscode);
+
+        return R.ok().data("hospital", hospital);
+
+    }
+
 }

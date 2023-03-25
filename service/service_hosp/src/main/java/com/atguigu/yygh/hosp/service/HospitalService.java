@@ -21,4 +21,7 @@ public interface HospitalService {
     Hospital detail(String id);
 
     List<Hospital> findByNameLike(String name);
+
+    Hospital getHospitalDetail(String hoscode);
+
 }
