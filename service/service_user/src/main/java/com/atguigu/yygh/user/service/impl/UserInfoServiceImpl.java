@@ -44,23 +44,47 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
 
         // 对验证码做进一步的校验
         String redisCode = (String) redisTemplate.opsForValue().get(phone);
-        if (StringUtils.isEmpty(redisCode) || !redisCode.equals(code) ) {
+        if (StringUtils.isEmpty(redisCode) || !redisCode.equals(code)) {
             throw new YyghException(20001, "验证码有误");
         }
 
-        QueryWrapper<UserInfo> queryWrapper = new QueryWrapper<>();
-        queryWrapper.eq("phone", phone);
-        UserInfo userInfo = baseMapper.selectOne(queryWrapper);
-        if (userInfo == null) {
-            userInfo = new UserInfo();
-            userInfo.setPhone(phone);
-            baseMapper.insert(userInfo);
-            userInfo.setStatus(1);
+        String openid = loginVo.getOpenid();
+        UserInfo userInfo = null;
+        if (StringUtils.isEmpty(openid)) {
+            QueryWrapper<UserInfo> queryWrapper = new QueryWrapper<>();
+            queryWrapper.eq("phone", phone);
+            userInfo = baseMapper.selectOne(queryWrapper);
+            if (userInfo == null) {
+                userInfo = new UserInfo();
+                userInfo.setPhone(phone);
+                baseMapper.insert(userInfo);
+                userInfo.setStatus(1);
+            }
+
+
+        } else { // 微信强制绑定手机号
+            QueryWrapper<UserInfo> queryWrapper = new QueryWrapper<>();
+            queryWrapper.eq("openid", openid);
+            userInfo = baseMapper.selectOne(queryWrapper);
+
+            QueryWrapper<UserInfo> phoneWrapper = new QueryWrapper<>();
+            phoneWrapper.eq("phone", phone);
+            UserInfo userInfo2 = baseMapper.selectOne(phoneWrapper);
+
+            if (userInfo2 != null) {
+                userInfo.setPhone(phone);
+//                userInfo.setStatus(1);
+                baseMapper.updateById(userInfo);
+            } else {
+                userInfo2.setOpenid(userInfo.getOpenid());
+                userInfo2.setNickName(userInfo.getNickName());
+                baseMapper.updateById(userInfo2);
+                baseMapper.deleteById(userInfo.getId());
+            }
         }
 
         if (userInfo.getStatus() == 0) {
             throw new YyghException(20001, "用户被禁用");
-
         }
 
         Map<String, Object> map = new HashMap<>();
