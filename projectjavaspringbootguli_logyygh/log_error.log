@@ -2573,3 +2573,34 @@ Identify and stop the process that's listening on port 8160 or configure this ap
 2023-03-25 16:38:33.300 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
 2023-03-25 16:38:33.385 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
 2023-03-25 16:38:33.593 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 18:16:50.286 [http-nio-8201-exec-3] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:16:50.286 [http-nio-8201-exec-3] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:16:50.623 [http-nio-8201-exec-9] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:16:50.623 [http-nio-8201-exec-9] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:18:10.763 [http-nio-8201-exec-1] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:18:10.763 [http-nio-8201-exec-1] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:18:11.065 [http-nio-8201-exec-10] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:18:11.065 [http-nio-8201-exec-10] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:18:15.215 [http-nio-8201-exec-6] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:18:15.215 [http-nio-8201-exec-6] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:18:15.510 [http-nio-8201-exec-5] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:18:15.510 [http-nio-8201-exec-5] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:20:03.847 [http-nio-8201-exec-9] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:20:03.847 [http-nio-8201-exec-9] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:20:04.879 [http-nio-8201-exec-10] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 18:20:04.879 [http-nio-8201-exec-10] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-25 20:07:55.226 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 20:07:55.320 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 20:07:55.549 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 23:18:43.298 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 23:18:43.392 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 23:18:43.706 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 23:18:58.757 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 23:18:58.895 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 23:18:59.159 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 23:19:03.040 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 23:19:03.144 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 23:19:03.356 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 23:19:07.478 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 23:19:07.564 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-25 23:19:07.866 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]

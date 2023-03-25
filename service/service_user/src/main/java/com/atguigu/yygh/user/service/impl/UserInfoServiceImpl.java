@@ -2,6 +2,7 @@ package com.atguigu.yygh.user.service.impl;
 
 import com.atguigu.yygh.common.exception.YyghException;
 import com.atguigu.yygh.common.util.JwtHelper;
+import com.atguigu.yygh.enums.AuthStatusEnum;
 import com.atguigu.yygh.model.user.UserInfo;
 import com.atguigu.yygh.user.mapper.UserInfoMapper;
 import com.atguigu.yygh.user.service.UserInfoService;
@@ -118,5 +119,14 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
 //        result.put("token", userInfo.getPhone());
 
         return map;
+    }
+
+    @Override
+    public UserInfo getUserInfo(Long userId) {
+
+        UserInfo userInfo = baseMapper.selectById(userId);
+        userInfo.getParam().put("authStatusString", AuthStatusEnum.getStatusNameByStatus(userInfo.getAuthStatus()));
+
+        return userInfo;
     }
 }

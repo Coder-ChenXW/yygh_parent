@@ -2,15 +2,14 @@ package com.atguigu.yygh.user.controller;
 
 
 import com.atguigu.yygh.common.result.R;
+import com.atguigu.yygh.common.util.JwtHelper;
+import com.atguigu.yygh.model.user.UserInfo;
 import com.atguigu.yygh.user.service.UserInfoService;
 import com.atguigu.yygh.vo.user.LoginVo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
-import org.springframework.web.bind.annotation.RestController;
-
+import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 /**
@@ -37,6 +36,16 @@ public class UserInfoController {
     public R login(@RequestBody LoginVo loginVo) {
         Map<String, Object> map = userInfoService.login(loginVo);
         return R.ok().data(map);
+    }
+
+    @GetMapping("/info")
+    public R getUserInfo(@RequestHeader String token) {
+        Long userId = JwtHelper.getUserId(token);
+        UserInfo byId = userInfoService.getUserInfo(userId);
+
+
+
+        return R.ok().data("user", byId);
     }
 
 }
