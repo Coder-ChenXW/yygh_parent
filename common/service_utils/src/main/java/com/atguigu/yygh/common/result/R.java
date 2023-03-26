@@ -22,6 +22,13 @@ public class R {
     private R() {
     }
 
+    public R(Integer code, Boolean success, String message, Map<String, Object> data) {
+        this.code = code;
+        this.success = success;
+        this.message = message;
+        this.data = data;
+    }
+
     public static R ok() {
         R r = new R();
         r.code = REnum.SUCCESS.getCode();
@@ -69,4 +76,35 @@ public class R {
     }
 
 
+    /**
+     * 设置
+     * @param code
+     */
+    public void setCode(Integer code) {
+        this.code = code;
+    }
+
+    /**
+     * 设置
+     * @param success
+     */
+    public void setSuccess(Boolean success) {
+        this.success = success;
+    }
+
+    /**
+     * 设置
+     * @param message
+     */
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    /**
+     * 设置
+     * @param data
+     */
+    public void setData(Map<String, Object> data) {
+        this.data = data;
+    }
 }

@@ -3,11 +3,14 @@ package com.atguigu.yygh.user.service.impl;
 import com.atguigu.yygh.common.exception.YyghException;
 import com.atguigu.yygh.common.util.JwtHelper;
 import com.atguigu.yygh.enums.AuthStatusEnum;
+import com.atguigu.yygh.enums.StatusEnum;
 import com.atguigu.yygh.model.user.UserInfo;
 import com.atguigu.yygh.user.mapper.UserInfoMapper;
 import com.atguigu.yygh.user.service.UserInfoService;
 import com.atguigu.yygh.vo.user.LoginVo;
+import com.atguigu.yygh.vo.user.UserInfoQueryVo;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -128,5 +131,47 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
         userInfo.getParam().put("authStatusString", AuthStatusEnum.getStatusNameByStatus(userInfo.getAuthStatus()));
 
         return userInfo;
+    }
+
+    @Override
+    public Page<UserInfo> getUserInfoPage(Integer pageNum, Integer limit, UserInfoQueryVo userInfoQueryVo) {
+
+        Page<UserInfo> page = new Page<>(pageNum, limit);
+        QueryWrapper<UserInfo> queryWrapper = new QueryWrapper<>();
+        baseMapper.selectPage(page,queryWrapper);
+
+
+        if (!StringUtils.isEmpty(userInfoQueryVo.getKeyword())) {
+            queryWrapper.like("name", userInfoQueryVo.getKeyword())
+                    .or().eq("phone", userInfoQueryVo.getKeyword());
+        }
+        if (!StringUtils.isEmpty(userInfoQueryVo.getStatus())) {
+            queryWrapper.eq("status", userInfoQueryVo.getStatus());
+        }
+        if (!StringUtils.isEmpty(userInfoQueryVo.getAuthStatus())) {
+            queryWrapper.eq("auth_status", userInfoQueryVo.getAuthStatus());
+        }
+        if (!StringUtils.isEmpty(userInfoQueryVo.getCreateTimeBegin())) {
+            queryWrapper.gt("create_time", userInfoQueryVo.getCreateTimeBegin());
+        }
+        if (!StringUtils.isEmpty(userInfoQueryVo.getCreateTimeEnd())) {
+            queryWrapper.lt("create_time", userInfoQueryVo.getCreateTimeEnd());
+        }
+
+        Page<UserInfo> page1 = baseMapper.selectPage(page, queryWrapper);
+
+        page1.getRecords().stream().forEach(item -> {
+            this.packageUserInfo(item);
+        });
+        return page1;
+    }
+
+
+    public void packageUserInfo(UserInfo item) {
+        Integer authStatus = item.getAuthStatus();
+        Integer status = item.getStatus();
+
+        item.getParam().put("statusString", StatusEnum.getStatusStringByStatus(status));
+        item.getParam().put("authStatusString", AuthStatusEnum.getStatusNameByStatus(authStatus));
     }
 }

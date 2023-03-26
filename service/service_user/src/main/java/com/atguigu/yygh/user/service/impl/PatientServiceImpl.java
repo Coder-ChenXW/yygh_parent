@@ -42,8 +42,24 @@ public class PatientServiceImpl extends ServiceImpl<PatientMapper, Patient> impl
         return patients;
     }
 
+
+    @Override
+    public Patient detail(Long id) {
+
+        Patient patient = baseMapper.selectById(id);
+        this.packagePatient(patient);
+        return patient;
+    }
+
+
     private void packagePatient(Patient item) {
         item.getParam().put("certificatesTypeString", dictFeignClient.getNameByValue(Long.parseLong(item.getCertificatesType())));
+        item.getParam().put("provinceString", dictFeignClient.getNameByValue(Long.parseLong(item.getProvinceCode())));
+        item.getParam().put("cityString", dictFeignClient.getNameByValue(Long.parseLong(item.getCityCode())));
+        item.getParam().put("districtString", dictFeignClient.getNameByValue(Long.parseLong(item.getDistrictCode())));
+
+
+
     }
 
 }

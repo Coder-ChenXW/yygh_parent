@@ -2738,3 +2738,189 @@ Identify and stop the process that's listening on port 8160 or configure this ap
 2023-03-26 13:06:09.945 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
 2023-03-26 13:06:10.033 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
 2023-03-26 13:06:10.239 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 13:06:31.775 [http-nio-8160-exec-1] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 13:06:31.775 [http-nio-8160-exec-1] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:29:04.852 [http-nio-8160-exec-6] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:29:04.852 [http-nio-8160-exec-6] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:33:22.488 [http-nio-8160-exec-10] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:33:22.488 [http-nio-8160-exec-10] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:34:02.683 [http-nio-8160-exec-1] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:34:02.683 [http-nio-8160-exec-1] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:34:06.280 [http-nio-8160-exec-3] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:34:06.280 [http-nio-8160-exec-3] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:41:43.501 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 15:41:43.716 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 15:41:44.134 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 15:41:58.613 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 15:41:58.931 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 15:41:59.233 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 15:42:02.468 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 15:42:02.565 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 15:42:02.813 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 15:42:06.255 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 15:42:06.354 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 15:42:06.620 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 15:43:17.601 [http-nio-8160-exec-3] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:43:17.601 [http-nio-8160-exec-3] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:43:29.041 [http-nio-8160-exec-8] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:43:29.041 [http-nio-8160-exec-8] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:43:35.990 [http-nio-8160-exec-10] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:43:35.990 [http-nio-8160-exec-10] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:44:16.122 [http-nio-8160-exec-3] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:44:16.122 [http-nio-8160-exec-3] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:49:46.199 [http-nio-8160-exec-5] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 15:49:46.199 [http-nio-8160-exec-5] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-26 16:11:54.365 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:11:54.495 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:11:54.854 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:12:13.702 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:12:13.833 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:12:14.321 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:12:17.580 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:12:17.718 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:12:18.254 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:12:22.121 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:12:22.211 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:12:22.488 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:18:59.730 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:18:59.884 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:19:00.365 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:19:17.770 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:19:17.998 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:19:18.378 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:19:22.294 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:19:22.397 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:19:22.656 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:19:26.022 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:19:26.117 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:19:26.416 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:19:59.985 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:20:00.078 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:20:00.389 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:20:17.428 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:20:17.719 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:20:18.093 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:20:21.809 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:20:22.062 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:20:22.613 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:20:27.090 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:20:27.272 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:20:27.767 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:51.825 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:51.897 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:52.037 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:52.099 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:52.185 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:52.433 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:52.548 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:52.637 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:52.764 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:52.837 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scheduleController' defined in file [E:\project\java\springboot\yygh_parent\service\service_hosp\target\classes\com\atguigu\yygh\hosp\controller\admin\ScheduleController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.atguigu.yygh.hosp.controller.admin.ScheduleController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7c81059b]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.atguigu.yygh.hosp.ServiceHospMainStarter.main(ServiceHospMainStarter.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.atguigu.yygh.hosp.controller.admin.ScheduleController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7c81059b]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:728)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:660)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:382)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:363)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/atguigu/yygh/hosp/service/ScheduleService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:723)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.atguigu.yygh.hosp.service.ScheduleService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 30 common frames omitted
+2023-03-26 16:22:53.048 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:53.217 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:53.440 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:57.346 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:57.373 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:22:57.472 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:23:18.703 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:23:18.768 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:23:18.875 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:23:18.939 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:23:18.985 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:23:19.086 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:23:23.790 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:23:23.854 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:23:23.962 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:25:06.421 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:25:06.546 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:25:06.840 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:25:08.352 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:25:08.498 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:25:08.894 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:25:25.892 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:25:26.027 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:25:26.412 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:25:30.187 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:25:30.271 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:25:30.484 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:28:37.286 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:28:37.369 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:28:37.612 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:28:47.608 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:28:47.719 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:28:48.134 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:29:03.308 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:29:03.441 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:29:03.721 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:29:06.798 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:29:06.950 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 16:29:07.354 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 18:46:01.299 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 18:46:01.419 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 18:46:01.736 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 18:46:15.476 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 18:46:15.611 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 18:46:15.897 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 18:46:20.128 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 18:46:20.221 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 18:46:20.457 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 18:46:22.244 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 18:46:22.335 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 18:46:22.599 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 21:38:41.640 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 21:38:41.735 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 21:38:42.072 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 21:38:58.871 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 21:38:59.025 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 21:38:59.677 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 21:39:03.544 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 21:39:03.842 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 21:39:04.225 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 21:39:07.912 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 21:39:08.014 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-26 21:39:08.308 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]

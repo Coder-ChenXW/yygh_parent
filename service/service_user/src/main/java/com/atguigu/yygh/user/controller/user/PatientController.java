@@ -1,4 +1,4 @@
-package com.atguigu.yygh.user.controller;
+package com.atguigu.yygh.user.controller.user;
 
 
 import com.atguigu.yygh.common.result.R;
@@ -58,7 +58,8 @@ public class PatientController {
      */
     @GetMapping("/detail/{id}")
     public R detail(@PathVariable Long id) {
-        Patient patient = patientService.getById(id);
+
+        Patient patient = patientService.detail(id);
         return R.ok().data("patient", patient);
     }
 
