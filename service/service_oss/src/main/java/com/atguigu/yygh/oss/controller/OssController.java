@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController
-@RequestMapping("/admin/oss/file")
+@RequestMapping("/user/oss/file")
 public class OssController {
 
     @Autowired
