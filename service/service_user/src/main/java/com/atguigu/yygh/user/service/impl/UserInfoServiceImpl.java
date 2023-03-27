@@ -4,8 +4,11 @@ import com.atguigu.yygh.common.exception.YyghException;
 import com.atguigu.yygh.common.util.JwtHelper;
 import com.atguigu.yygh.enums.AuthStatusEnum;
 import com.atguigu.yygh.enums.StatusEnum;
+import com.atguigu.yygh.model.user.Patient;
 import com.atguigu.yygh.model.user.UserInfo;
+import com.atguigu.yygh.user.mapper.PatientMapper;
 import com.atguigu.yygh.user.mapper.UserInfoMapper;
+import com.atguigu.yygh.user.service.PatientService;
 import com.atguigu.yygh.user.service.UserInfoService;
 import com.atguigu.yygh.vo.user.LoginVo;
 import com.atguigu.yygh.vo.user.UserInfoQueryVo;
@@ -18,6 +21,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -34,6 +38,10 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
 
     @Autowired
     private RedisTemplate redisTemplate;
+
+
+    @Autowired
+    private PatientService patientService;
 
 
     @Override
@@ -164,6 +172,32 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
             this.packageUserInfo(item);
         });
         return page1;
+    }
+
+    @Override
+    public void updateStatus(Long id, Integer status) {
+        if (status == 0 || status == 1) {
+//            UserInfo userInfo = baseMapper.selectById(id);
+            UserInfo userInfo = new UserInfo();
+            userInfo.setId(id);
+            userInfo.setStatus(status);
+            baseMapper.updateById(userInfo);
+        }
+    }
+
+    @Override
+    public Map<String, Object> detail(Long id) {
+        UserInfo userInfo = baseMapper.selectById(id);
+
+        QueryWrapper<Patient> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("user_id", id);
+        List<Patient> patients = patientService.selectList(queryWrapper);
+
+        Map<String,Object> map = new HashMap<String, Object>(2);
+        map.put("userInfo", userInfo);
+        map.put("patients", patients);
+
+        return map;
     }
 
 

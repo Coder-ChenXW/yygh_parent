@@ -18,4 +18,9 @@ public interface ScheduleService {
     Map<String, Object> page(Integer pageNum, Integer pageSize, String hoscode, String depcode);
 
     List<Schedule> detail(String hoscode, String depcode, String workdate);
+
+    Map<String, Object> getSchedulePageByCondition(String hoscode, String depcode, Integer pageNum, Integer pageSize);
+
+    Schedule getScheduleInfo(String scheduleId);
+
 }

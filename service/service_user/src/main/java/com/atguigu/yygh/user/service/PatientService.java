@@ -19,4 +19,6 @@ public interface PatientService extends IService<Patient> {
     List<Patient> findAll(String token);
 
     Patient detail(Long id);
+
+    List<Patient> selectList(QueryWrapper<Patient> queryWrapper);
 }

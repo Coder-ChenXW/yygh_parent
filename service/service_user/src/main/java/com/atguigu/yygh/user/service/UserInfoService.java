@@ -24,4 +24,8 @@ public interface UserInfoService extends IService<UserInfo> {
     UserInfo getUserInfo(Long userId);
 
     Page<UserInfo> getUserInfoPage(Integer pageNum, Integer limit, UserInfoQueryVo userInfoQueryVo);
+
+    void updateStatus(Long id, Integer status);
+
+    Map<String, Object> detail(Long id);
 }

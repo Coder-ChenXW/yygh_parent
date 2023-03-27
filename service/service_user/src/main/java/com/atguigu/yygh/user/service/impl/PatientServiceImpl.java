@@ -51,13 +51,25 @@ public class PatientServiceImpl extends ServiceImpl<PatientMapper, Patient> impl
         return patient;
     }
 
+    @Override
+    public List<Patient> selectList(QueryWrapper<Patient> queryWrapper) {
+        List<Patient> patients = baseMapper.selectList(queryWrapper);
+        patients.stream().forEach(item -> {
+            this.packagePatient(item);
+        });
+        return patients;
+    }
+
 
     private void packagePatient(Patient item) {
         item.getParam().put("certificatesTypeString", dictFeignClient.getNameByValue(Long.parseLong(item.getCertificatesType())));
-        item.getParam().put("provinceString", dictFeignClient.getNameByValue(Long.parseLong(item.getProvinceCode())));
-        item.getParam().put("cityString", dictFeignClient.getNameByValue(Long.parseLong(item.getCityCode())));
-        item.getParam().put("districtString", dictFeignClient.getNameByValue(Long.parseLong(item.getDistrictCode())));
-
+        String provinceString = dictFeignClient.getNameByValue(Long.parseLong(item.getProvinceCode()));
+        String cityString = dictFeignClient.getNameByValue(Long.parseLong(item.getCityCode()));
+        String districtString = dictFeignClient.getNameByValue(Long.parseLong(item.getDistrictCode()));
+        item.getParam().put("provinceString",provinceString);
+        item.getParam().put("cityString", cityString);
+        item.getParam().put("districtString", districtString);
+        item.getParam().put("fullAddress",provinceString+cityString+districtString+item.getAddress());
 
 
     }

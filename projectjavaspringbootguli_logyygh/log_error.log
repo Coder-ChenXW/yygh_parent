@@ -2924,3 +2924,475 @@ Caused by: java.lang.ClassNotFoundException: com.atguigu.yygh.hosp.service.Sched
 2023-03-26 21:39:07.912 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
 2023-03-26 21:39:08.014 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
 2023-03-26 21:39:08.308 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:39:14.669 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:39:14.899 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:39:15.681 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:39:27.720 [restartedMain] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-cmn register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-cmn', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.43.143', networkInterface='', port=8202, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: failed to req API:localhost:8848/nacos/v1/ns/instance. code:500 msg: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:467)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:191)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:207)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:64)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:76)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.atguigu.yygh.cmn.ServiceCmnApplication.main(ServiceCmnApplication.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2023-03-27 08:39:29.096 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: failed to req API:localhost:8848/nacos/v1/ns/instance. code:500 msg: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:467)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:191)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:207)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:64)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:76)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.atguigu.yygh.cmn.ServiceCmnApplication.main(ServiceCmnApplication.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2023-03-27 08:39:35.389 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:39:35.551 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:39:35.900 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:39:41.543 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:39:41.893 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:39:42.514 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:39:47.818 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:39:48.070 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:39:48.554 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:39:50.395 [restartedMain] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-user register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='127.0.0.1:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-user', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.43.143', networkInterface='', port=8160, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance after all servers([127.0.0.1:8848]) tried: failed to req API:127.0.0.1:8848/nacos/v1/ns/instance. code:500 msg: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:467)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:191)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:207)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:64)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:76)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.atguigu.yygh.user.ServiceUserApplication.main(ServiceUserApplication.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2023-03-27 08:39:50.821 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance after all servers([127.0.0.1:8848]) tried: failed to req API:127.0.0.1:8848/nacos/v1/ns/instance. code:500 msg: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:467)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:191)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:207)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:64)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:76)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.atguigu.yygh.user.ServiceUserApplication.main(ServiceUserApplication.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2023-03-27 08:39:53.270 [restartedMain] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-oss register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-oss', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.43.143', networkInterface='', port=8205, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: failed to req API:localhost:8848/nacos/v1/ns/instance. code:500 msg: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:467)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:191)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:207)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:64)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:76)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.atguigu.yygh.oss.OssApplication.main(OssApplication.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2023-03-27 08:39:53.716 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: failed to req API:localhost:8848/nacos/v1/ns/instance. code:500 msg: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:467)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:191)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:207)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:64)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:76)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.atguigu.yygh.oss.OssApplication.main(OssApplication.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2023-03-27 08:39:57.313 [restartedMain] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-hosp register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-hosp', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.43.143', networkInterface='', port=8201, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: failed to req API:localhost:8848/nacos/v1/ns/instance. code:500 msg: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:467)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:191)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:207)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:64)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:76)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.atguigu.yygh.hosp.ServiceHospMainStarter.main(ServiceHospMainStarter.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2023-03-27 08:39:57.648 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: failed to req API:localhost:8848/nacos/v1/ns/instance. code:500 msg: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:467)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:191)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:207)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:64)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:76)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.atguigu.yygh.hosp.ServiceHospMainStarter.main(ServiceHospMainStarter.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2023-03-27 08:40:32.639 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:40:32.815 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:40:33.336 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:40:48.442 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:40:48.706 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:40:49.411 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:40:53.126 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:40:53.251 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:40:53.634 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:40:56.301 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:40:56.395 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:40:56.830 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:42:10.000 [http-nio-8160-exec-3] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "detail"
+2023-03-27 08:42:10.000 [http-nio-8160-exec-3] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "detail"
+2023-03-27 08:58:40.105 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:58:40.227 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:58:40.506 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:58:59.836 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:59:00.050 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:59:00.513 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:59:04.096 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:59:04.211 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:59:04.457 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:59:07.302 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:59:07.403 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 08:59:07.725 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:07:47.474 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:07:47.617 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:07:48.013 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:08:08.969 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:08:09.326 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:08:09.652 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:08:12.227 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:08:12.424 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:08:13.061 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:08:15.562 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:08:15.596 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8160 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8160 or configure this application to listen on another port.
+
+2023-03-27 09:08:17.071 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:08:17.170 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:08:17.453 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:08:21.937 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:08:22.080 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8201 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8201 or configure this application to listen on another port.
+
+2023-03-27 09:09:03.156 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:09:03.238 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:09:03.434 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:09:06.546 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:09:06.577 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8160 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8160 or configure this application to listen on another port.
+
+2023-03-27 09:10:08.516 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:10:08.659 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:10:08.972 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:10:21.718 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:10:21.826 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:10:22.218 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:10:26.461 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:10:26.581 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:10:26.863 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:10:30.722 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:10:30.811 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:10:31.123 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:21:01.100 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:21:01.194 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:21:01.397 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:42:09.954 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:42:10.045 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:42:10.267 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:43:04.239 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:43:04.333 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:43:04.536 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:45:10.570 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:45:10.653 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 09:45:10.855 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 12:13:29.540 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 12:13:29.725 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 12:13:30.190 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 12:13:47.039 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 12:13:47.385 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 12:13:47.961 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 12:13:53.921 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 12:13:54.171 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 12:13:54.697 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 12:14:02.578 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 12:14:02.683 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 12:14:02.989 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 13:38:50.912 [http-nio-8201-exec-8] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-27 13:38:50.912 [http-nio-8201-exec-8] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-27 13:38:51.223 [http-nio-8201-exec-1] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-27 13:38:51.223 [http-nio-8201-exec-1] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-27 13:40:38.216 [http-nio-8201-exec-3] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-27 13:40:38.216 [http-nio-8201-exec-3] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-27 13:40:38.503 [http-nio-8201-exec-8] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-27 13:40:38.503 [http-nio-8201-exec-8] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-27 13:40:47.047 [http-nio-8201-exec-10] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-27 13:40:47.047 [http-nio-8201-exec-10] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-27 13:40:48.036 [http-nio-8201-exec-6] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-27 13:40:48.036 [http-nio-8201-exec-6] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - null
+2023-03-27 14:34:45.540 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:34:45.644 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:34:45.940 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:35:03.515 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:35:04.083 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:35:04.525 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:35:10.266 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:35:10.686 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:35:11.375 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:35:16.996 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:35:17.147 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:35:17.486 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:42:45.322 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:42:45.426 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:42:45.731 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:42:59.454 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:42:59.607 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:43:00.019 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:43:05.787 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:43:05.994 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:43:06.544 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:43:12.247 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:43:12.466 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:43:12.969 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:49:44.601 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:49:44.685 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:49:44.963 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:49:52.753 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:49:52.878 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:49:53.424 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:50:03.038 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:50:03.227 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:50:03.688 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:50:15.777 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:50:15.929 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:50:16.175 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:50:19.226 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:50:19.329 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 14:50:19.667 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:04:02.237 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:04:02.347 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:04:02.642 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:04:15.933 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:04:16.143 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:04:16.745 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:04:20.925 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:04:21.114 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:04:21.454 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:04:26.201 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:04:26.294 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:04:26.591 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:10:15.655 [http-nio-8160-exec-3] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-27 15:10:15.655 [http-nio-8160-exec-3] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-27 15:10:36.296 [http-nio-8160-exec-5] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-27 15:10:36.296 [http-nio-8160-exec-5] ERROR c.a.yygh.common.handler.GlobalExceptionHandler - Missing request header 'token' for method parameter of type String
+2023-03-27 15:32:30.011 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:32:30.127 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:32:30.418 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:32:42.351 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:32:42.458 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:32:42.666 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:32:47.965 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:32:48.071 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:32:48.313 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:32:52.300 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:32:52.408 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:32:52.729 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:34:47.338 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:34:47.427 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2023-03-27 15:34:47.645 [restartedMain] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
