@@ -12,10 +12,12 @@ import com.atguigu.yygh.model.hosp.Department;
 import com.atguigu.yygh.model.hosp.Hospital;
 import com.atguigu.yygh.model.hosp.Schedule;
 import com.atguigu.yygh.vo.hosp.BookingScheduleRuleVo;
+import com.atguigu.yygh.vo.hosp.ScheduleOrderVo;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeConstants;
 import org.joda.time.format.DateTimeFormat;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
@@ -213,7 +215,6 @@ public class ScheduleServiceImpl implements ScheduleService {
             }
 
 
-
             bookingScheduleRuleVo.setWorkDateMd(date);
             bookingScheduleRuleVo.setDayOfWeek(this.getDayOfWeek(new DateTime(date)));
             bookingScheduleRuleVo.setStatus(0);
@@ -267,6 +268,53 @@ public class ScheduleServiceImpl implements ScheduleService {
         this.packageSchedule(schedule);
 
         return schedule;
+    }
+
+    @Override
+    public ScheduleOrderVo getScheduleById(String scheduleId) {
+        Schedule schedule = scheduleRepository.findById(scheduleId).get();
+        ScheduleOrderVo scheduleOrderVo = new ScheduleOrderVo();
+//        scheduleOrderVo.setHoscode(schedule.getHoscode());
+        BeanUtils.copyProperties(schedule, scheduleOrderVo);
+        Hospital hospital = hospitalService.getHospitalByHoscode(schedule.getHoscode());
+        scheduleOrderVo.setHosname(hospital.getHosname());
+
+        Department department = departmentService.getDepartment(schedule.getHoscode(), schedule.getDepcode());
+        scheduleOrderVo.setDepname(department.getDepname());
+        scheduleOrderVo.setReserveDate(schedule.getWorkDate());
+        scheduleOrderVo.setReserveTime(schedule.getWorkTime());
+
+
+        DateTime dateTime = this.getDateTime(new DateTime(schedule.getWorkDate()).plusDays(hospital.getBookingRule().getQuitDay()).toDate(), hospital.getBookingRule().getQuitTime());
+
+        scheduleOrderVo.setQuitTime(dateTime.toDate()); // 退号时间
+
+        Date workDate = schedule.getWorkDate();
+
+        String stopTime = hospital.getBookingRule().getStopTime();
+
+        scheduleOrderVo.setStopTime(this.getDateTime(workDate, stopTime).toDate());
+
+        return scheduleOrderVo;
+    }
+
+    @Override
+    public boolean updateAvailableNumber(String scheduleId, Integer availableNumber) {
+
+        Schedule schedule = scheduleRepository.findById(scheduleId).get();
+
+        schedule.setAvailableNumber(availableNumber);
+        schedule.setUpdateTime(new Date());
+
+        scheduleRepository.save(schedule);
+        return true;
+    }
+
+    @Override
+    public void cancelSchedule(String scheduleId) {
+        Schedule schedule = scheduleRepository.findByHosScheduleId(scheduleId);
+        schedule.setAvailableNumber(schedule.getAvailableNumber() + 1);
+        scheduleRepository.save(schedule);
     }
 
     private IPage getListDate(Integer pageNum, Integer pageSize, BookingRule bookingRule) {

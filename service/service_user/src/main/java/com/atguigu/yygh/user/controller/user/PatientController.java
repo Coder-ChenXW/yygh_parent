@@ -89,5 +89,16 @@ public class PatientController {
         return R.ok().data("list", list);
     }
 
+
+    /**
+     * @description: 根据就诊人id获取就诊人信
+     * @author: ChenXW
+     * @date: 2023-03-27 23:09
+     */
+    @GetMapping("/{patientId}")
+    public Patient getPatientById(@PathVariable("patientId") Long patientId) {
+        return patientService.getById(patientId);
+    }
+
 }
 

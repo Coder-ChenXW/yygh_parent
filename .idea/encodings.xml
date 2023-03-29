@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/coder/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/coder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/rabbit_util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/service_utils/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/service_utils/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
@@ -25,6 +26,8 @@
     <file url="file://$PROJECT_DIR$/service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service_client/service_cmn_client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service_client/service_cmn_client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_client/service_hosp_client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_client/service_user_client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service_client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service_client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

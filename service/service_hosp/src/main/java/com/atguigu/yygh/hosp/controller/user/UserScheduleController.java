@@ -4,6 +4,7 @@ package com.atguigu.yygh.hosp.controller.user;
 import com.atguigu.yygh.common.result.R;
 import com.atguigu.yygh.hosp.service.ScheduleService;
 import com.atguigu.yygh.model.hosp.Schedule;
+import com.atguigu.yygh.vo.hosp.ScheduleOrderVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -20,6 +21,17 @@ public class UserScheduleController {
 
     @Autowired
     private ScheduleService scheduleService;
+
+    /**
+     * @description: 方法复用
+     * @author: ChenXW
+     * @date: 2023-03-27 22:50
+     */
+    @GetMapping("/{scheduleId}")
+    public ScheduleOrderVo getScheduleById(@PathVariable(value = "scheduleId") String scheduleId) {
+
+        return scheduleService.getScheduleById(scheduleId);
+    }
 
 
     /**

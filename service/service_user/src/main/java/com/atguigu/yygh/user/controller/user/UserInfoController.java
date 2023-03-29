@@ -4,10 +4,13 @@ package com.atguigu.yygh.user.controller.user;
 import com.atguigu.yygh.common.result.R;
 import com.atguigu.yygh.common.util.JwtHelper;
 import com.atguigu.yygh.enums.AuthStatusEnum;
+import com.atguigu.yygh.model.hosp.Schedule;
 import com.atguigu.yygh.model.user.UserInfo;
 import com.atguigu.yygh.user.service.UserInfoService;
+import com.atguigu.yygh.vo.hosp.ScheduleOrderVo;
 import com.atguigu.yygh.vo.user.LoginVo;
 import com.atguigu.yygh.vo.user.UserAuthVo;
+import javafx.concurrent.ScheduledService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -29,6 +32,7 @@ public class UserInfoController {
 
     @Autowired
     private UserInfoService userInfoService;
+
 
     /**
      * @description: 用户登录

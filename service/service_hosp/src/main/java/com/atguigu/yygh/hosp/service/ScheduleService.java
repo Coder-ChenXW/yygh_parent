@@ -1,6 +1,7 @@
 package com.atguigu.yygh.hosp.service;
 
 import com.atguigu.yygh.model.hosp.Schedule;
+import com.atguigu.yygh.vo.hosp.ScheduleOrderVo;
 import org.springframework.data.domain.Page;
 
 import java.util.Date;
@@ -22,5 +23,11 @@ public interface ScheduleService {
     Map<String, Object> getSchedulePageByCondition(String hoscode, String depcode, Integer pageNum, Integer pageSize);
 
     Schedule getScheduleInfo(String scheduleId);
+
+    ScheduleOrderVo getScheduleById(String scheduleId);
+
+    boolean updateAvailableNumber(String scheduleId, Integer availableNumber);
+
+    void cancelSchedule(String scheduleId);
 
 }

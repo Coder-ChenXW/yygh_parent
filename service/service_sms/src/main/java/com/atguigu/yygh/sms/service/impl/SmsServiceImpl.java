@@ -7,6 +7,7 @@ import com.aliyuncs.exceptions.ServerException;
 import com.aliyuncs.profile.DefaultProfile;
 import com.atguigu.yygh.sms.service.SmsService;
 import com.atguigu.yygh.sms.utils.RandomUtil;
+import com.atguigu.yygh.vo.msm.MsmVo;
 import com.google.gson.Gson;
 import java.util.concurrent.TimeUnit;
 
@@ -72,6 +73,12 @@ public class SmsServiceImpl implements SmsService {
         }
 
         return false;
+    }
+
+    @Override
+    public void sendMessage(MsmVo msmVo) {
+        String phone = msmVo.getPhone();
+        System.out.println("给就诊人发送短信成功");
     }
 
 
